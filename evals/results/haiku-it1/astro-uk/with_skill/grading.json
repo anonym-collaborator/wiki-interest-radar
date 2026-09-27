@@ -1,0 +1,36 @@
+{
+ "results": [
+  {
+   "assertion": "skill used",
+   "passed": true,
+   "evidence": "results.json produced by radar.py"
+  },
+  {
+   "assertion": "says not growing / declining",
+   "passed": true,
+   "evidence": "не зроста"
+  },
+  {
+   "assertion": "explains a trust factor",
+   "passed": true,
+   "evidence": "на мільйон"
+  },
+  {
+   "assertion": "states confidence",
+   "passed": true,
+   "evidence": "висок"
+  },
+  {
+   "assertion": "numbers supported by results.json",
+   "passed": true,
+   "evidence": "all numbers found in astronomy_uk_24m"
+  }
+ ],
+ "passed": 5,
+ "total": 5,
+ "metrics": {
+  "tool_calls": 7,
+  "tokens": 43708,
+  "seconds": 68
+ }
+}

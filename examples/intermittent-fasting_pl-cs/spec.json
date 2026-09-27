@@ -1,0 +1,51 @@
+{
+ "topics": [
+  {
+   "name": "intermittent fasting",
+   "kind": "topic",
+   "members": [
+    {
+     "query": "intermittent fasting",
+     "qid": "Q1666254",
+     "label": "intermittent fasting",
+     "description": "a diet that cycles between a period of fasting and non-fasting",
+     "articles": {
+      "pl": null,
+      "cs": {
+       "lang": "cs",
+       "title": "Přerušovaný půst",
+       "exists": true,
+       "length": 7148,
+       "redirects": [],
+       "source": "wikidata"
+      }
+     },
+     "alternatives": [],
+     "ambiguous": false,
+     "gap_hints": {
+      "pl": [
+       "Stres oksydacyjny",
+       "Głodówka lecznicza",
+       "Paleolityczny styl życia"
+      ]
+     },
+     "label_uk": "Інтервальне голодування"
+    }
+   ]
+  }
+ ],
+ "langs": [
+  "pl",
+  "cs"
+ ],
+ "window": {
+  "start": "2024-09",
+  "end": "2026-08",
+  "months": 24
+ },
+ "agent": "user",
+ "access": "all-access",
+ "redirects": true,
+ "preset": "balanced",
+ "weights": null
+}

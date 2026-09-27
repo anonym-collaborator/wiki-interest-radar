@@ -1,0 +1,1 @@
+No, interest in Mercury is not going up on German and French Wikipedia. Both show declining interest with high confidence. German Wikipedia: 17.5 views per million monthly, -12% trend per year [95% CI: -17; -6]. French Wikipedia: 14.5 views per million monthly, -9% trend per year [95% CI: -12; -5].

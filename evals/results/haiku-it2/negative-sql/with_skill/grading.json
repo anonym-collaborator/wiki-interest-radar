@@ -1,0 +1,16 @@
+{
+ "results": [
+  {
+   "assertion": "skill not used",
+   "passed": true,
+   "evidence": ""
+  }
+ ],
+ "passed": 1,
+ "total": 1,
+ "metrics": {
+  "tool_calls": 2,
+  "tokens": 41646,
+  "seconds": 26
+ }
+}

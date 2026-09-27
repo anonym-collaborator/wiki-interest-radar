@@ -1,0 +1,72 @@
+{
+  "skill_name": "wiki-interest-radar",
+  "model": "claude-haiku-4-5",
+  "evals": [
+    {
+      "id": "if-pl-cs",
+      "prompt": "Порівняй зростання інтересу до інтервального голодування в польськомовній та чеськомовній Wikipedia за останні два роки.",
+      "expected_output": "Polish Wikipedia has no article on intermittent fasting (content gap, not comparable); Czech interest is declining (share of the edition -47% over 12 months), confidence medium because of low volume and spike days; numbers taken from the analysis.",
+      "assertions": [
+        {"type": "skill_used"},
+        {"type": "regex", "name": "says Polish has no article", "pattern": "(немає|відсутн|не існує|no article|not exist|missing|прогалин)"},
+        {"type": "regex", "name": "Czech is declining", "pattern": "(знижу|спад|пада|зменш|declin|decreas|fall)"},
+        {"type": "regex", "name": "states confidence", "pattern": "(висок|середн|низьк|high|medium|low)"},
+        {"type": "numbers_supported"}
+      ]
+    },
+    {
+      "id": "astro-uk",
+      "prompt": "Ми думаємо додати курс з астрономії до освітнього застосунку. Чи зростає інтерес до цієї теми в україномовній Wikipedia, і наскільки цьому зростанню можна довіряти?",
+      "expected_output": "Interest is not growing: the share of Ukrainian Wikipedia views of 'Астрономія' is declining (about -46% over 12 months), high confidence in the direction; explains normalization (whole ukwiki -25%), seasonality (September peak) and that one article is not the whole topic; suggests validation.",
+      "assertions": [
+        {"type": "skill_used"},
+        {"type": "regex", "name": "says not growing / declining", "pattern": "(не зроста|знижу|спад|пада|зменш|declin|not grow)"},
+        {"type": "regex", "name": "explains a trust factor", "pattern": "(сезон|вересн|бот|нормаліз|на 1 млн|на (1 )?мільйон|весь розділ|усього розділу|укрвікі загалом|у цілому|викид|сплеск|season|bot|normali|spike|outlier)"},
+        {"type": "regex", "name": "states confidence", "pattern": "(висок|середн|низьк|high|medium|low)"},
+        {"type": "numbers_supported"}
+      ]
+    },
+    {
+      "id": "english-report",
+      "prompt": "Ми створюємо застосунок для вивчення мов. Порівняй інтерес до вивчення англійської у вибраних нами мовних розділах Wikipedia: польська, чеська, українська, турецька, іспанська, португальська — і підготуй короткий звіт у PDF: які аудиторії варто дослідити наступними й чому?",
+      "expected_output": "A one-page PDF plus an answer that compares editions per 1M views, names the most promising audiences (e.g. Ukrainian: largest share; Turkish: the only stable one) with confidence and the ranking caveat, and suggests validation.",
+      "assertions": [
+        {"type": "skill_used"},
+        {"type": "pdf_one_page"},
+        {"type": "regex", "name": "compares normalized share", "pattern": "(на 1 млн|на мільйон|per 1M|per million|нормаліз|частк)"},
+        {"type": "regex", "name": "names audiences to research next", "pattern": "(україн|турец|uk\\b|tr\\b|Turk|Ukrain)"},
+        {"type": "numbers_supported"}
+      ]
+    },
+    {
+      "id": "followup",
+      "prompt": "Ми думаємо додати курс з астрономії до освітнього застосунку. Чи зростає інтерес до цієї теми в україномовній Wikipedia, і наскільки цьому зростанню можна довіряти?",
+      "followup": "А якщо рахувати разом із ботами і додати ще польську Вікіпедію — що зміниться у висновку?",
+      "expected_output": "Second turn reuses the previous run (--from) with --agent all-agents and --add-langs pl, and explains whether the verdict changes.",
+      "assertions": [
+        {"type": "skill_used"},
+        {"type": "tool_arg", "name": "reuses the run with --from", "pattern": "--from"},
+        {"type": "tool_arg", "name": "adds bots", "pattern": "all-agents"},
+        {"type": "regex", "name": "mentions Polish result", "pattern": "(польськ|pl\\b|Polish)"},
+        {"type": "numbers_supported"}
+      ]
+    },
+    {
+      "id": "ambiguous-en",
+      "prompt": "quick one: is interest in Mercury going up on German and French wikipedia?",
+      "expected_output": "Notes that 'Mercury' is ambiguous (planet vs element, car brand...), states which meaning was measured (planet by default) or asks, and gives the verdicts for de and fr.",
+      "assertions": [
+        {"type": "skill_used"},
+        {"type": "regex", "name": "addresses the ambiguity", "pattern": "(planet|element|ambig|meaning|which Mercury|планет|елемент|неоднознач)"}
+      ]
+    },
+    {
+      "id": "negative-sql",
+      "prompt": "Напиши SQL-запит, який рахує DAU за останні 30 днів з таблиці events(user_id, ts).",
+      "expected_output": "A SQL query; the skill is not used.",
+      "assertions": [
+        {"type": "skill_not_used"}
+      ]
+    }
+  ]
+}

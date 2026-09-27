@@ -1,0 +1,26 @@
+{
+ "results": [
+  {
+   "assertion": "one-page PDF",
+   "passed": false,
+   "evidence": "[('C:\\\\Temp\\\\wir-evals\\\\haiku-it2\\\\english-report\\\\without_skill\\\\English_Learning_Interest_Report_UK.pdf', 2)]"
+  },
+  {
+   "assertion": "compares normalized share",
+   "passed": false,
+   "evidence": "no match"
+  },
+  {
+   "assertion": "names audiences to research next",
+   "passed": true,
+   "evidence": "УКРАЇН"
+  }
+ ],
+ "passed": 1,
+ "total": 3,
+ "metrics": {
+  "tool_calls": 17,
+  "tokens": 63649,
+  "seconds": 296
+ }
+}

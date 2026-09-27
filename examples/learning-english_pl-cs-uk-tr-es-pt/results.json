@@ -1,0 +1,1560 @@
+{
+ "tool": "wiki-interest-radar",
+ "version": "0.1.0",
+ "generated_at": "2026-09-27T19:21Z",
+ "command": "radar.py analyze --basket 'Learning English: English language; English grammar; IELTS; TOEFL' --langs pl,cs,uk,tr,es,pt --start 2024-09 --end 2026-08",
+ "spec": {
+  "topics": [
+   {
+    "name": "Learning English",
+    "kind": "basket",
+    "members": [
+     {
+      "query": "English language",
+      "qid": "Q1860",
+      "label": "English",
+      "description": "West Germanic language",
+      "articles": {
+       "pl": {
+        "lang": "pl",
+        "title": "Język angielski",
+        "exists": true,
+        "length": 56296,
+        "redirects": [
+         "Ang",
+         "Ang.",
+         "Angielski",
+         "Angielszczyzna",
+         "J. ang.",
+         "Język angielski brytyjski"
+        ],
+        "source": "wikidata"
+       },
+       "cs": {
+        "lang": "cs",
+        "title": "Angličtina",
+        "exists": true,
+        "length": 38031,
+        "redirects": [
+         "Anglicky",
+         "Anglický jazyk",
+         "English",
+         "Spelování"
+        ],
+        "source": "wikidata"
+       },
+       "uk": {
+        "lang": "uk",
+        "title": "Англійська мова",
+        "exists": true,
+        "length": 254530,
+        "redirects": [
+         "English",
+         "English language",
+         "Англ.",
+         "Англійська",
+         "Англійською",
+         "Канадська англійська мова",
+         "Канадський варіант англійської мови",
+         "Сучасна англійська"
+        ],
+        "source": "wikidata"
+       },
+       "tr": {
+        "lang": "tr",
+        "title": "İngilizce",
+        "exists": true,
+        "length": 98859,
+        "redirects": [
+         "English Language",
+         "English language",
+         "ISO 639:en",
+         "ISO 639:eng",
+         "Ingilizce",
+         "İng.",
+         "İngilizce Dili"
+        ],
+        "source": "wikidata"
+       },
+       "es": {
+        "lang": "es",
+        "title": "Idioma inglés",
+        "exists": true,
+        "length": 50713,
+        "redirects": [
+         "Acento de boston",
+         "Anglofona",
+         "Anglofono",
+         "Anglohablante",
+         "Angloparlante",
+         "Anglófona",
+         "Anglófono",
+         "El idioma ingles",
+         "English",
+         "English language",
+         "Idioma Inglés",
+         "Idioma ingles",
+         "Ingl.",
+         "Ingles (idioma)",
+         "Ingles moderno",
+         "Inglés (idioma)",
+         "Inglés moderno",
+         "La lengua de Shakespeare",
+         "Lengua Ingles",
+         "Lengua Inglesa",
+         "Lengua Inglés",
+         "Lengua de Shakespeare",
+         "Lengua ingles",
+         "Lengua inglesa",
+         "Lengua inglés"
+        ],
+        "source": "wikidata"
+       },
+       "pt": {
+        "lang": "pt",
+        "title": "Língua inglesa",
+        "exists": true,
+        "length": 50095,
+        "redirects": [
+         "Em inglês",
+         "English language",
+         "Gramática da Língua Inglesa",
+         "Idioma Inglês",
+         "Idioma inglesa",
+         "Idioma inglês",
+         "Idioma ânglico escocês",
+         "Inglês (idioma)",
+         "Inglês (língua)",
+         "Língua Inglesa",
+         "Língua inglês",
+         "Língua scots",
+         "Línguas anglo-frísias insulares",
+         "Línguas inglesas",
+         "Present perfect",
+         "Ânglico"
+        ],
+        "source": "wikidata"
+       }
+      },
+      "alternatives": [
+       {
+        "qid": "Q328",
+        "label": "English Wikipedia",
+        "description": "English-language edition of Wikipedia",
+        "coverage": "6/6"
+       },
+       {
+        "qid": "Q27968",
+        "label": "English studies",
+        "description": "discipline that studies the English language and literature",
+        "coverage": "4/6"
+       },
+       {
+        "qid": "Q186579",
+        "label": "English-language literature",
+        "description": "literary works written in the English language",
+        "coverage": "6/6"
+       },
+       {
+        "qid": "Q16308156",
+        "label": "scholar of English",
+        "description": "person who studies English language and literature",
+        "coverage": "0/6"
+       }
+      ],
+      "ambiguous": false,
+      "gap_hints": {},
+      "label_uk": "англійська мова"
+     },
+     {
+      "query": "English grammar",
+      "qid": "Q560583",
+      "label": "English grammar",
+      "description": "body of rules that describe the structure of expressions in the English language",
+      "articles": {
+       "pl": {
+        "lang": "pl",
+        "title": "Gramatyka języka angielskiego",
+        "exists": true,
+        "length": 147982,
+        "redirects": [],
+        "source": "wikidata"
+       },
+       "cs": {
+        "lang": "cs",
+        "title": "Anglická gramatika",
+        "exists": true,
+        "length": 14908,
+        "redirects": [],
+        "source": "wikidata"
+       },
+       "uk": {
+        "lang": "uk",
+        "title": "Граматика англійської мови",
+        "exists": true,
+        "length": 154575,
+        "redirects": [],
+        "source": "wikidata"
+       },
+       "tr": null,
+       "es": {
+        "lang": "es",
+        "title": "Gramática del inglés",
+        "exists": true,
+        "length": 71529,
+        "redirects": [],
+        "source": "wikidata"
+       },
+       "pt": {
+        "lang": "pt",
+        "title": "Gramática da língua inglesa",
+        "exists": true,
+        "length": 1643,
+        "redirects": [],
+        "source": "wikidata"
+       }
+      },
+      "alternatives": [
+       {
+        "qid": "Q139929339",
+        "label": "English Grammar",
+        "description": "",
+        "coverage": "0/6"
+       },
+       {
+        "qid": "Q87475758",
+        "label": "English Grammar",
+        "description": "book on English grammar by Muhibbek Rustamov and Margarita Asiryans",
+        "coverage": "0/6"
+       },
+       {
+        "qid": "Q122004577",
+        "label": "English grammar",
+        "description": "book edition published in 2017",
+        "coverage": "0/6"
+       },
+       {
+        "qid": "Q5378273",
+        "label": "English Grammar in Use",
+        "description": "book on English grammar by Raymond Murphy",
+        "coverage": "0/6"
+       }
+      ],
+      "ambiguous": false,
+      "gap_hints": {
+       "tr": [
+        "Future simple",
+        "Alexander Bain (filozof)",
+        "Çizgi"
+       ]
+      },
+      "label_uk": "граматика англійської мови"
+     },
+     {
+      "query": "IELTS",
+      "qid": "Q490396",
+      "label": "IELTS",
+      "description": "Test for learners of English as a second language",
+      "articles": {
+       "pl": {
+        "lang": "pl",
+        "title": "IELTS",
+        "exists": true,
+        "length": 3799,
+        "redirects": [],
+        "source": "wikidata"
+       },
+       "cs": {
+        "lang": "cs",
+        "title": "IELTS",
+        "exists": true,
+        "length": 6999,
+        "redirects": [],
+        "source": "wikidata"
+       },
+       "uk": {
+        "lang": "uk",
+        "title": "IELTS",
+        "exists": true,
+        "length": 18197,
+        "redirects": [],
+        "source": "wikidata"
+       },
+       "tr": {
+        "lang": "tr",
+        "title": "IELTS",
+        "exists": true,
+        "length": 8752,
+        "redirects": [],
+        "source": "wikidata"
+       },
+       "es": {
+        "lang": "es",
+        "title": "IELTS",
+        "exists": true,
+        "length": 26962,
+        "redirects": [
+         "International English Language Testing System"
+        ],
+        "source": "wikidata"
+       },
+       "pt": {
+        "lang": "pt",
+        "title": "Sistema de avaliação na língua inglesa internacional",
+        "exists": true,
+        "length": 2820,
+        "redirects": [
+         "IELTS",
+         "International English Language Testing System"
+        ],
+        "source": "wikidata"
+       }
+      },
+      "alternatives": [
+       {
+        "qid": "Q106370817",
+        "label": "IELTS 14: General Training with Answers",
+        "description": "IELTS preparation book",
+        "coverage": "0/6"
+       },
+       {
+        "qid": "Q106638533",
+        "label": "IELTS 15: General Training with Answers",
+        "description": "IELTS preparation book",
+        "coverage": "0/6"
+       },
+       {
+        "qid": "Q106638544",
+        "label": "IELTS 15: Academic with Answers",
+        "description": "IELTS preparation book",
+        "coverage": "0/6"
+       },
+       {
+        "qid": "Q106624755",
+        "label": "IELTS 14: Academic with Answers",
+        "description": "IELTS preparation book",
+        "coverage": "0/6"
+       }
+      ],
+      "ambiguous": false,
+      "gap_hints": {},
+      "label_uk": "IELTS"
+     },
+     {
+      "query": "TOEFL",
+      "qid": "Q487425",
+      "label": "TOEFL",
+      "description": "examination to certify skill in English for non-native speakers",
+      "articles": {
+       "pl": {
+        "lang": "pl",
+        "title": "TOEFL",
+        "exists": true,
+        "length": 14197,
+        "redirects": [],
+        "source": "wikidata"
+       },
+       "cs": null,
+       "uk": {
+        "lang": "uk",
+        "title": "TOEFL",
+        "exists": true,
+        "length": 36823,
+        "redirects": [],
+        "source": "wikidata"
+       },
+       "tr": {
+        "lang": "tr",
+        "title": "TOEFL",
+        "exists": true,
+        "length": 3576,
+        "redirects": [],
+        "source": "wikidata"
+       },
+       "es": {
+        "lang": "es",
+        "title": "TOEFL",
+        "exists": true,
+        "length": 11043,
+        "redirects": [
+         "Test of English as a Foreign Language"
+        ],
+        "source": "wikidata"
+       },
+       "pt": {
+        "lang": "pt",
+        "title": "Teste de Inglês como uma Língua Estrangeira",
+        "exists": true,
+        "length": 6376,
+        "redirects": [
+         "TOEFL",
+         "Test of English as a Foreign Language",
+         "Toefl"
+        ],
+        "source": "wikidata"
+       }
+      },
+      "alternatives": [
+       {
+        "qid": "Q56575592",
+        "label": "TOEFL PBT",
+        "description": "TOEFL paper based test",
+        "coverage": "0/6"
+       },
+       {
+        "qid": "Q56575564",
+        "label": "TOEFL iBT",
+        "description": "",
+        "coverage": "0/6"
+       },
+       {
+        "qid": "Q11249589",
+        "label": "TOEFL Junior",
+        "description": "",
+        "coverage": "0/6"
+       }
+      ],
+      "ambiguous": false,
+      "gap_hints": {
+       "cs": [
+        "Test of English for International Communication",
+        "TrackTest",
+        "Společný evropský referenční rámec"
+       ]
+      },
+      "label_uk": ""
+     }
+    ]
+   }
+  ],
+  "langs": [
+   "pl",
+   "cs",
+   "uk",
+   "tr",
+   "es",
+   "pt"
+  ],
+  "window": {
+   "start": "2024-09",
+   "end": "2026-08",
+   "months": 24
+  },
+  "agent": "user",
+  "access": "all-access",
+  "redirects": true,
+  "preset": "balanced",
+  "weights": null
+ },
+ "rows": [
+  {
+   "topic": "Learning English",
+   "topic_key": "learning-english",
+   "kind": "basket",
+   "lang": "pl",
+   "lang_name": "Polish",
+   "project": "pl.wikipedia.org",
+   "window": {
+    "start": "2024-09",
+    "end": "2026-08",
+    "months": 24
+   },
+   "status": "ok",
+   "articles": [
+    {
+     "label": "English",
+     "qid": "Q1860",
+     "title": "Język angielski",
+     "source": "wikidata",
+     "length_bytes": 56296,
+     "redirects": 6,
+     "first_seen": "2015-07",
+     "share_pct": 92.7,
+     "change_12m_pct": -10.3
+    },
+    {
+     "label": "English grammar",
+     "qid": "Q560583",
+     "title": "Gramatyka języka angielskiego",
+     "source": "wikidata",
+     "length_bytes": 147982,
+     "redirects": 0,
+     "first_seen": "2015-07",
+     "share_pct": 2.7,
+     "change_12m_pct": -13.3
+    },
+    {
+     "label": "IELTS",
+     "qid": "Q490396",
+     "title": "IELTS",
+     "source": "wikidata",
+     "length_bytes": 3799,
+     "redirects": 0,
+     "first_seen": "2015-07",
+     "share_pct": 3.2,
+     "change_12m_pct": -15.1
+    },
+    {
+     "label": "TOEFL",
+     "qid": "Q487425",
+     "title": "TOEFL",
+     "source": "wikidata",
+     "length_bytes": 14197,
+     "redirects": 0,
+     "first_seen": "2015-07",
+     "share_pct": 1.4,
+     "change_12m_pct": -45.5
+    }
+   ],
+   "missing_members": [],
+   "level": {
+    "views_per_month_last12": 8824.3,
+    "views_per_million_last12": 46.91,
+    "views_per_million_last3": 46.975,
+    "views_last12_total": 105892,
+    "median_daily_views_last12": 282.0
+   },
+   "change": {
+    "change_12m_pct": -11.4,
+    "change_12m_raw_pct": -19.2,
+    "project_change_12m_pct": -8.8,
+    "yoy_same_months_pct": -6.1,
+    "change_12m_ex_spikes_pct": -11.4
+   },
+   "trend": {
+    "pct_per_year": -10.6,
+    "ci95": [
+     -12.7,
+     -7.7
+    ],
+    "mann_kendall_p": 0.1489,
+    "test": "seasonal Mann-Kendall",
+    "range_pct": [
+     -11.4,
+     -6.1
+    ],
+    "pct_per_year_without_last3": -13.4
+   },
+   "seasonality": {
+    "peak_month": "Sep",
+    "peak_ratio": 1.12,
+    "recurring": true,
+    "largest_month": "2023-09"
+   },
+   "spikes": {
+    "share_pct": 0.0,
+    "days": [],
+    "months": []
+   },
+   "bots": {
+    "share_pct_last12": 26.6
+   },
+   "concentration": {
+    "top_month": "2025-10",
+    "top_month_share_pct": 10.5,
+    "change_12m_without_top_month_pct": -12.6
+   },
+   "redirects": {
+    "share_pct_last12": 1.0,
+    "count": 6
+   },
+   "breaks": [
+    {
+     "id": "bot-reclassification-2025",
+     "start": "2025-03",
+     "end": "2025-08",
+     "specific": false,
+     "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+     "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом.",
+     "source": "https://diff.wikimedia.org/2025/10/17/new-user-trends-on-wikipedia/"
+    }
+   ],
+   "verdict": "declining",
+   "confidence": "high",
+   "checks": [
+    {
+     "id": "volume",
+     "status": "ok",
+     "key": "volume_ok",
+     "params": {
+      "med": "282"
+     },
+     "message": "median 282 views/day in the last 12 months"
+    },
+    {
+     "id": "spikes",
+     "status": "ok",
+     "key": "spikes_none",
+     "params": {},
+     "message": "no spike days detected"
+    },
+    {
+     "id": "agreement",
+     "status": "ok",
+     "key": "agreement_ok",
+     "params": {
+      "a": "-11",
+      "b": "-6"
+     },
+     "message": "12-month change, same-month YoY and trend agree in direction (range -11..-6%)"
+    },
+    {
+     "id": "data_break",
+     "status": "info",
+     "key": "break",
+     "params": {
+      "start": "2025-03",
+      "end": "2025-08",
+      "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+      "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом."
+     },
+     "message": "2025-03..2025-08: Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time."
+    }
+   ],
+   "reasons": []
+  },
+  {
+   "topic": "Learning English",
+   "topic_key": "learning-english",
+   "kind": "basket",
+   "lang": "cs",
+   "lang_name": "Czech",
+   "project": "cs.wikipedia.org",
+   "window": {
+    "start": "2024-09",
+    "end": "2026-08",
+    "months": 24
+   },
+   "status": "ok",
+   "articles": [
+    {
+     "label": "English",
+     "qid": "Q1860",
+     "title": "Angličtina",
+     "source": "wikidata",
+     "length_bytes": 38031,
+     "redirects": 4,
+     "first_seen": "2015-07",
+     "share_pct": 93.6,
+     "change_12m_pct": -11.6
+    },
+    {
+     "label": "English grammar",
+     "qid": "Q560583",
+     "title": "Anglická gramatika",
+     "source": "wikidata",
+     "length_bytes": 14908,
+     "redirects": 0,
+     "first_seen": "2015-07",
+     "share_pct": 3.7,
+     "change_12m_pct": -66.4
+    },
+    {
+     "label": "IELTS",
+     "qid": "Q490396",
+     "title": "IELTS",
+     "source": "wikidata",
+     "length_bytes": 6999,
+     "redirects": 0,
+     "first_seen": "2015-07",
+     "share_pct": 2.6,
+     "change_12m_pct": -38.8
+    }
+   ],
+   "missing_members": [
+    "TOEFL"
+   ],
+   "level": {
+    "views_per_month_last12": 3059.2,
+    "views_per_million_last12": 51.459,
+    "views_per_million_last3": 49.109,
+    "views_last12_total": 36710,
+    "median_daily_views_last12": 99.0
+   },
+   "change": {
+    "change_12m_pct": -17.6,
+    "change_12m_raw_pct": -28.0,
+    "project_change_12m_pct": -12.6,
+    "yoy_same_months_pct": -11.3,
+    "change_12m_ex_spikes_pct": -17.6
+   },
+   "trend": {
+    "pct_per_year": -15.4,
+    "ci95": [
+     -19.5,
+     -9.8
+    ],
+    "mann_kendall_p": 0.0433,
+    "test": "seasonal Mann-Kendall",
+    "range_pct": [
+     -17.6,
+     -11.3
+    ],
+    "pct_per_year_without_last3": -16.8
+   },
+   "seasonality": {
+    "peak_month": "Sep",
+    "peak_ratio": 1.24,
+    "recurring": true,
+    "largest_month": "2023-09"
+   },
+   "spikes": {
+    "share_pct": 0.0,
+    "days": [],
+    "months": []
+   },
+   "bots": {
+    "share_pct_last12": 33.9
+   },
+   "concentration": {
+    "top_month": "2025-10",
+    "top_month_share_pct": 9.4,
+    "change_12m_without_top_month_pct": -16.7
+   },
+   "redirects": {
+    "share_pct_last12": 0.8,
+    "count": 4
+   },
+   "breaks": [
+    {
+     "id": "bot-reclassification-2025",
+     "start": "2025-03",
+     "end": "2025-08",
+     "specific": false,
+     "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+     "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом.",
+     "source": "https://diff.wikimedia.org/2025/10/17/new-user-trends-on-wikipedia/"
+    }
+   ],
+   "verdict": "declining",
+   "confidence": "high",
+   "checks": [
+    {
+     "id": "volume",
+     "status": "ok",
+     "key": "volume_ok",
+     "params": {
+      "med": "99"
+     },
+     "message": "median 99 views/day in the last 12 months"
+    },
+    {
+     "id": "spikes",
+     "status": "ok",
+     "key": "spikes_none",
+     "params": {},
+     "message": "no spike days detected"
+    },
+    {
+     "id": "agreement",
+     "status": "ok",
+     "key": "agreement_ok",
+     "params": {
+      "a": "-18",
+      "b": "-11"
+     },
+     "message": "12-month change, same-month YoY and trend agree in direction (range -18..-11%)"
+    },
+    {
+     "id": "data_break",
+     "status": "info",
+     "key": "break",
+     "params": {
+      "start": "2025-03",
+      "end": "2025-08",
+      "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+      "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом."
+     },
+     "message": "2025-03..2025-08: Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time."
+    },
+    {
+     "id": "coverage",
+     "status": "info",
+     "key": "coverage_info",
+     "params": {
+      "items": "TOEFL"
+     },
+     "message": "articles missing in this edition: TOEFL"
+    }
+   ],
+   "reasons": []
+  },
+  {
+   "topic": "Learning English",
+   "topic_key": "learning-english",
+   "kind": "basket",
+   "lang": "uk",
+   "lang_name": "Ukrainian",
+   "project": "uk.wikipedia.org",
+   "window": {
+    "start": "2024-09",
+    "end": "2026-08",
+    "months": 24
+   },
+   "status": "ok",
+   "articles": [
+    {
+     "label": "English",
+     "qid": "Q1860",
+     "title": "Англійська мова",
+     "source": "wikidata",
+     "length_bytes": 254530,
+     "redirects": 8,
+     "first_seen": "2015-07",
+     "share_pct": 93.9,
+     "change_12m_pct": -14.2
+    },
+    {
+     "label": "English grammar",
+     "qid": "Q560583",
+     "title": "Граматика англійської мови",
+     "source": "wikidata",
+     "length_bytes": 154575,
+     "redirects": 0,
+     "first_seen": "2022-12",
+     "share_pct": 0.8,
+     "change_12m_pct": -56.4
+    },
+    {
+     "label": "IELTS",
+     "qid": "Q490396",
+     "title": "IELTS",
+     "source": "wikidata",
+     "length_bytes": 18197,
+     "redirects": 0,
+     "first_seen": "2015-07",
+     "share_pct": 3.5,
+     "change_12m_pct": -41.7
+    },
+    {
+     "label": "TOEFL",
+     "qid": "Q487425",
+     "title": "TOEFL",
+     "source": "wikidata",
+     "length_bytes": 36823,
+     "redirects": 0,
+     "first_seen": "2015-07",
+     "share_pct": 1.7,
+     "change_12m_pct": -55.5
+    }
+   ],
+   "missing_members": [],
+   "level": {
+    "views_per_month_last12": 7209.6,
+    "views_per_million_last12": 127.498,
+    "views_per_million_last3": 115.456,
+    "views_last12_total": 86515,
+    "median_daily_views_last12": 230.0
+   },
+   "change": {
+    "change_12m_pct": -17.6,
+    "change_12m_raw_pct": -37.9,
+    "project_change_12m_pct": -24.6,
+    "yoy_same_months_pct": -11.2,
+    "change_12m_ex_spikes_pct": -17.6
+   },
+   "trend": {
+    "pct_per_year": -16.1,
+    "ci95": [
+     -18.3,
+     -13.2
+    ],
+    "mann_kendall_p": 0.0015,
+    "test": "seasonal Mann-Kendall",
+    "range_pct": [
+     -17.6,
+     -11.2
+    ],
+    "pct_per_year_without_last3": -16.1
+   },
+   "seasonality": {
+    "peak_month": "Sep",
+    "peak_ratio": 1.28,
+    "recurring": true,
+    "largest_month": "2023-09"
+   },
+   "spikes": {
+    "share_pct": 0.0,
+    "days": [],
+    "months": []
+   },
+   "bots": {
+    "share_pct_last12": 32.7
+   },
+   "concentration": {
+    "top_month": "2025-09",
+    "top_month_share_pct": 10.7,
+    "change_12m_without_top_month_pct": -18.1
+   },
+   "redirects": {
+    "share_pct_last12": 1.6,
+    "count": 8
+   },
+   "breaks": [
+    {
+     "id": "bot-reclassification-2025",
+     "start": "2025-03",
+     "end": "2025-08",
+     "specific": false,
+     "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+     "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом.",
+     "source": "https://diff.wikimedia.org/2025/10/17/new-user-trends-on-wikipedia/"
+    }
+   ],
+   "verdict": "declining",
+   "confidence": "high",
+   "checks": [
+    {
+     "id": "volume",
+     "status": "ok",
+     "key": "volume_ok",
+     "params": {
+      "med": "230"
+     },
+     "message": "median 230 views/day in the last 12 months"
+    },
+    {
+     "id": "spikes",
+     "status": "ok",
+     "key": "spikes_none",
+     "params": {},
+     "message": "no spike days detected"
+    },
+    {
+     "id": "agreement",
+     "status": "ok",
+     "key": "agreement_ok",
+     "params": {
+      "a": "-18",
+      "b": "-11"
+     },
+     "message": "12-month change, same-month YoY and trend agree in direction (range -18..-11%)"
+    },
+    {
+     "id": "normalization",
+     "status": "info",
+     "key": "norm_info",
+     "params": {
+      "project": "uk.wikipedia.org",
+      "pc": "-25"
+     },
+     "message": "the whole uk.wikipedia.org changed -25% over the same 12 months; figures are per 1M edition views to remove that"
+    },
+    {
+     "id": "data_break",
+     "status": "info",
+     "key": "break",
+     "params": {
+      "start": "2025-03",
+      "end": "2025-08",
+      "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+      "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом."
+     },
+     "message": "2025-03..2025-08: Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time."
+    }
+   ],
+   "reasons": []
+  },
+  {
+   "topic": "Learning English",
+   "topic_key": "learning-english",
+   "kind": "basket",
+   "lang": "tr",
+   "lang_name": "Turkish",
+   "project": "tr.wikipedia.org",
+   "window": {
+    "start": "2024-09",
+    "end": "2026-08",
+    "months": 24
+   },
+   "status": "ok",
+   "articles": [
+    {
+     "label": "English",
+     "qid": "Q1860",
+     "title": "İngilizce",
+     "source": "wikidata",
+     "length_bytes": 98859,
+     "redirects": 7,
+     "first_seen": "2015-07",
+     "share_pct": 80.3,
+     "change_12m_pct": 0.1
+    },
+    {
+     "label": "IELTS",
+     "qid": "Q490396",
+     "title": "IELTS",
+     "source": "wikidata",
+     "length_bytes": 8752,
+     "redirects": 0,
+     "first_seen": "2015-07",
+     "share_pct": 12.1,
+     "change_12m_pct": 21.8
+    },
+    {
+     "label": "TOEFL",
+     "qid": "Q487425",
+     "title": "TOEFL",
+     "source": "wikidata",
+     "length_bytes": 3576,
+     "redirects": 0,
+     "first_seen": "2015-07",
+     "share_pct": 7.6,
+     "change_12m_pct": -11.8
+    }
+   ],
+   "missing_members": [
+    "English grammar"
+   ],
+   "level": {
+    "views_per_month_last12": 8869.5,
+    "views_per_million_last12": 81.503,
+    "views_per_million_last3": 73.516,
+    "views_last12_total": 106434,
+    "median_daily_views_last12": 286.0
+   },
+   "change": {
+    "change_12m_pct": 1.3,
+    "change_12m_raw_pct": -15.3,
+    "project_change_12m_pct": -16.3,
+    "yoy_same_months_pct": 2.2,
+    "change_12m_ex_spikes_pct": 1.3
+   },
+   "trend": {
+    "pct_per_year": -2.1,
+    "ci95": [
+     -5.1,
+     1.3
+    ],
+    "mann_kendall_p": 0.7728,
+    "test": "seasonal Mann-Kendall",
+    "range_pct": [
+     -2.1,
+     2.2
+    ],
+    "pct_per_year_without_last3": 0.4
+   },
+   "seasonality": {
+    "peak_month": "Sep",
+    "peak_ratio": 1.18,
+    "recurring": true,
+    "largest_month": "2023-09"
+   },
+   "spikes": {
+    "share_pct": 0.0,
+    "days": [],
+    "months": []
+   },
+   "bots": {
+    "share_pct_last12": 22.7
+   },
+   "concentration": {
+    "top_month": "2025-10",
+    "top_month_share_pct": 10.1,
+    "change_12m_without_top_month_pct": 2.5
+   },
+   "redirects": {
+    "share_pct_last12": 0.5,
+    "count": 7
+   },
+   "breaks": [
+    {
+     "id": "bot-reclassification-2025",
+     "start": "2025-03",
+     "end": "2025-08",
+     "specific": false,
+     "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+     "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом.",
+     "source": "https://diff.wikimedia.org/2025/10/17/new-user-trends-on-wikipedia/"
+    }
+   ],
+   "verdict": "flat",
+   "confidence": "high",
+   "checks": [
+    {
+     "id": "volume",
+     "status": "ok",
+     "key": "volume_ok",
+     "params": {
+      "med": "286"
+     },
+     "message": "median 286 views/day in the last 12 months"
+    },
+    {
+     "id": "spikes",
+     "status": "ok",
+     "key": "spikes_none",
+     "params": {},
+     "message": "no spike days detected"
+    },
+    {
+     "id": "normalization",
+     "status": "info",
+     "key": "norm_info",
+     "params": {
+      "project": "tr.wikipedia.org",
+      "pc": "-16"
+     },
+     "message": "the whole tr.wikipedia.org changed -16% over the same 12 months; figures are per 1M edition views to remove that"
+    },
+    {
+     "id": "data_break",
+     "status": "info",
+     "key": "break",
+     "params": {
+      "start": "2025-03",
+      "end": "2025-08",
+      "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+      "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом."
+     },
+     "message": "2025-03..2025-08: Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time."
+    },
+    {
+     "id": "coverage",
+     "status": "info",
+     "key": "coverage_info",
+     "params": {
+      "items": "English grammar"
+     },
+     "message": "articles missing in this edition: English grammar"
+    }
+   ],
+   "reasons": []
+  },
+  {
+   "topic": "Learning English",
+   "topic_key": "learning-english",
+   "kind": "basket",
+   "lang": "es",
+   "lang_name": "Spanish",
+   "project": "es.wikipedia.org",
+   "window": {
+    "start": "2024-09",
+    "end": "2026-08",
+    "months": 24
+   },
+   "status": "ok",
+   "articles": [
+    {
+     "label": "English",
+     "qid": "Q1860",
+     "title": "Idioma inglés",
+     "source": "wikidata",
+     "length_bytes": 50713,
+     "redirects": 25,
+     "first_seen": "2015-07",
+     "share_pct": 93.6,
+     "change_12m_pct": -9.9
+    },
+    {
+     "label": "English grammar",
+     "qid": "Q560583",
+     "title": "Gramática del inglés",
+     "source": "wikidata",
+     "length_bytes": 71529,
+     "redirects": 0,
+     "first_seen": "2015-07",
+     "share_pct": 2.4,
+     "change_12m_pct": -53.1
+    },
+    {
+     "label": "IELTS",
+     "qid": "Q490396",
+     "title": "IELTS",
+     "source": "wikidata",
+     "length_bytes": 26962,
+     "redirects": 1,
+     "first_seen": "2015-07",
+     "share_pct": 1.6,
+     "change_12m_pct": -35.5
+    },
+    {
+     "label": "TOEFL",
+     "qid": "Q487425",
+     "title": "TOEFL",
+     "source": "wikidata",
+     "length_bytes": 11043,
+     "redirects": 1,
+     "first_seen": "2015-07",
+     "share_pct": 2.3,
+     "change_12m_pct": -49.0
+    }
+   ],
+   "missing_members": [],
+   "level": {
+    "views_per_month_last12": 28794.9,
+    "views_per_million_last12": 52.889,
+    "views_per_million_last3": 50.038,
+    "views_last12_total": 345539,
+    "median_daily_views_last12": 890.0
+   },
+   "change": {
+    "change_12m_pct": -13.9,
+    "change_12m_raw_pct": -31.8,
+    "project_change_12m_pct": -20.9,
+    "yoy_same_months_pct": -6.5,
+    "change_12m_ex_spikes_pct": -13.9
+   },
+   "trend": {
+    "pct_per_year": -14.1,
+    "ci95": [
+     -17.1,
+     -10.7
+    ],
+    "mann_kendall_p": 0.0094,
+    "test": "seasonal Mann-Kendall",
+    "range_pct": [
+     -14.1,
+     -6.5
+    ],
+    "pct_per_year_without_last3": -14.1
+   },
+   "seasonality": {
+    "peak_month": "Sep",
+    "peak_ratio": 1.22,
+    "recurring": true,
+    "largest_month": "2023-09"
+   },
+   "spikes": {
+    "share_pct": 0.0,
+    "days": [],
+    "months": []
+   },
+   "bots": {
+    "share_pct_last12": 26.8
+   },
+   "concentration": {
+    "top_month": "2025-10",
+    "top_month_share_pct": 10.3,
+    "change_12m_without_top_month_pct": -13.5
+   },
+   "redirects": {
+    "share_pct_last12": 3.5,
+    "count": 27
+   },
+   "breaks": [
+    {
+     "id": "bot-reclassification-2025",
+     "start": "2025-03",
+     "end": "2025-08",
+     "specific": false,
+     "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+     "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом.",
+     "source": "https://diff.wikimedia.org/2025/10/17/new-user-trends-on-wikipedia/"
+    }
+   ],
+   "verdict": "declining",
+   "confidence": "high",
+   "checks": [
+    {
+     "id": "volume",
+     "status": "ok",
+     "key": "volume_ok",
+     "params": {
+      "med": "890"
+     },
+     "message": "median 890 views/day in the last 12 months"
+    },
+    {
+     "id": "spikes",
+     "status": "ok",
+     "key": "spikes_none",
+     "params": {},
+     "message": "no spike days detected"
+    },
+    {
+     "id": "agreement",
+     "status": "ok",
+     "key": "agreement_ok",
+     "params": {
+      "a": "-14",
+      "b": "-6"
+     },
+     "message": "12-month change, same-month YoY and trend agree in direction (range -14..-6%)"
+    },
+    {
+     "id": "normalization",
+     "status": "info",
+     "key": "norm_info",
+     "params": {
+      "project": "es.wikipedia.org",
+      "pc": "-21"
+     },
+     "message": "the whole es.wikipedia.org changed -21% over the same 12 months; figures are per 1M edition views to remove that"
+    },
+    {
+     "id": "data_break",
+     "status": "info",
+     "key": "break",
+     "params": {
+      "start": "2025-03",
+      "end": "2025-08",
+      "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+      "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом."
+     },
+     "message": "2025-03..2025-08: Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time."
+    }
+   ],
+   "reasons": []
+  },
+  {
+   "topic": "Learning English",
+   "topic_key": "learning-english",
+   "kind": "basket",
+   "lang": "pt",
+   "lang_name": "Portuguese",
+   "project": "pt.wikipedia.org",
+   "window": {
+    "start": "2024-09",
+    "end": "2026-08",
+    "months": 24
+   },
+   "status": "ok",
+   "articles": [
+    {
+     "label": "English",
+     "qid": "Q1860",
+     "title": "Língua inglesa",
+     "source": "wikidata",
+     "length_bytes": 50095,
+     "redirects": 16,
+     "first_seen": "2015-07",
+     "share_pct": 96.8,
+     "change_12m_pct": -10.9
+    },
+    {
+     "label": "English grammar",
+     "qid": "Q560583",
+     "title": "Gramática da língua inglesa",
+     "source": "wikidata",
+     "length_bytes": 1643,
+     "redirects": 0,
+     "first_seen": "2015-07",
+     "share_pct": 0.5,
+     "change_12m_pct": -40.6
+    },
+    {
+     "label": "IELTS",
+     "qid": "Q490396",
+     "title": "Sistema de avaliação na língua inglesa internacional",
+     "source": "wikidata",
+     "length_bytes": 2820,
+     "redirects": 2,
+     "first_seen": "2015-07",
+     "share_pct": 1.0,
+     "change_12m_pct": -42.2
+    },
+    {
+     "label": "TOEFL",
+     "qid": "Q487425",
+     "title": "Teste de Inglês como uma Língua Estrangeira",
+     "source": "wikidata",
+     "length_bytes": 6376,
+     "redirects": 3,
+     "first_seen": "2015-07",
+     "share_pct": 1.7,
+     "change_12m_pct": -57.0
+    }
+   ],
+   "missing_members": [],
+   "level": {
+    "views_per_month_last12": 9657.8,
+    "views_per_million_last12": 53.849,
+    "views_per_million_last3": 56.279,
+    "views_last12_total": 115894,
+    "median_daily_views_last12": 309.0
+   },
+   "change": {
+    "change_12m_pct": -13.2,
+    "change_12m_raw_pct": -27.6,
+    "project_change_12m_pct": -16.6,
+    "yoy_same_months_pct": 0.7,
+    "change_12m_ex_spikes_pct": -13.2
+   },
+   "trend": {
+    "pct_per_year": -14.3,
+    "ci95": [
+     -17.8,
+     -8.7
+    ],
+    "mann_kendall_p": 0.1489,
+    "test": "seasonal Mann-Kendall",
+    "range_pct": [
+     -14.3,
+     0.7
+    ],
+    "pct_per_year_without_last3": -18.2
+   },
+   "seasonality": {
+    "peak_month": "Sep",
+    "peak_ratio": 1.17,
+    "recurring": true,
+    "largest_month": "2023-09"
+   },
+   "spikes": {
+    "share_pct": 0.0,
+    "days": [],
+    "months": []
+   },
+   "bots": {
+    "share_pct_last12": 31.8
+   },
+   "concentration": {
+    "top_month": "2026-08",
+    "top_month_share_pct": 9.2,
+    "change_12m_without_top_month_pct": -14.9
+   },
+   "redirects": {
+    "share_pct_last12": 2.3,
+    "count": 21
+   },
+   "breaks": [
+    {
+     "id": "bot-reclassification-2025",
+     "start": "2025-03",
+     "end": "2025-08",
+     "specific": false,
+     "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+     "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом.",
+     "source": "https://diff.wikimedia.org/2025/10/17/new-user-trends-on-wikipedia/"
+    }
+   ],
+   "verdict": "declining",
+   "confidence": "high",
+   "checks": [
+    {
+     "id": "volume",
+     "status": "ok",
+     "key": "volume_ok",
+     "params": {
+      "med": "309"
+     },
+     "message": "median 309 views/day in the last 12 months"
+    },
+    {
+     "id": "spikes",
+     "status": "ok",
+     "key": "spikes_none",
+     "params": {},
+     "message": "no spike days detected"
+    },
+    {
+     "id": "agreement",
+     "status": "ok",
+     "key": "agreement_ok",
+     "params": {
+      "a": "-14",
+      "b": "+1"
+     },
+     "message": "12-month change, same-month YoY and trend agree in direction (range -14..+1%)"
+    },
+    {
+     "id": "normalization",
+     "status": "info",
+     "key": "norm_info",
+     "params": {
+      "project": "pt.wikipedia.org",
+      "pc": "-17"
+     },
+     "message": "the whole pt.wikipedia.org changed -17% over the same 12 months; figures are per 1M edition views to remove that"
+    },
+    {
+     "id": "data_break",
+     "status": "info",
+     "key": "break",
+     "params": {
+      "start": "2025-03",
+      "end": "2025-08",
+      "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+      "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом."
+     },
+     "message": "2025-03..2025-08: Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time."
+    }
+   ],
+   "reasons": []
+  }
+ ],
+ "ranking": {
+  "weights": {
+   "size": 0.4,
+   "momentum": 0.4,
+   "trust": 0.2
+  },
+  "preset": "balanced",
+  "criteria": {
+   "size": "share of the edition's attention (views per million, last 12 months, log scale)",
+   "momentum": "trend %/year (spike-cleaned, deseasonalized)",
+   "trust": "confidence of the trend (high=1, medium=0.5, low=0)"
+  },
+  "table": [
+   {
+    "rank": 1,
+    "topic": "Learning English",
+    "lang": "tr",
+    "score": 0.821,
+    "verdict": "flat",
+    "confidence": "high"
+   },
+   {
+    "rank": 2,
+    "topic": "Learning English",
+    "lang": "uk",
+    "score": 0.6,
+    "verdict": "declining",
+    "confidence": "high"
+   },
+   {
+    "rank": 3,
+    "topic": "Learning English",
+    "lang": "pl",
+    "score": 0.357,
+    "verdict": "declining",
+    "confidence": "high"
+   },
+   {
+    "rank": 4,
+    "topic": "Learning English",
+    "lang": "pt",
+    "score": 0.307,
+    "verdict": "declining",
+    "confidence": "high"
+   },
+   {
+    "rank": 5,
+    "topic": "Learning English",
+    "lang": "es",
+    "score": 0.305,
+    "verdict": "declining",
+    "confidence": "high"
+   },
+   {
+    "rank": 6,
+    "topic": "Learning English",
+    "lang": "cs",
+    "score": 0.257,
+    "verdict": "declining",
+    "confidence": "high"
+   }
+  ],
+  "sensitivity": {
+   "top3_by_preset": {
+    "balanced": [
+     "tr:Learning English",
+     "uk:Learning English",
+     "pl:Learning English"
+    ],
+    "momentum": [
+     "tr:Learning English",
+     "pl:Learning English",
+     "uk:Learning English"
+    ],
+    "size": [
+     "uk:Learning English",
+     "tr:Learning English",
+     "pt:Learning English"
+    ]
+   },
+   "verdict": "unstable: depends on weights"
+  }
+ }
+}

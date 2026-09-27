@@ -1,0 +1,42 @@
+[
+ {
+  "id": "automated-class",
+  "start": "2020-04",
+  "end": "2020-05",
+  "projects": "*",
+  "note": "Wikimedia introduced the 'automated' agent class (2020-04-29); about 5% of former 'user' views moved out, so agent=user drops at this date.",
+  "note_uk": "Wikimedia запровадила клас 'automated' (29.04.2020): ~5% колишніх «людських» переглядів перейшли до ботів, тож ряд agent=user тут просідає.",
+  "source": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/changelog.html"
+ },
+ {
+  "id": "data-loss-2021",
+  "start": "2021-06",
+  "end": "2022-01",
+  "projects": "*",
+  "note": "Known pageview data loss: ~2.8% (2021-06-04..11-03) and ~4.3% (2021-11-04..2022-01-27).",
+  "note_uk": "Відома втрата даних переглядів: ~2,8% (04.06–03.11.2021) і ~4,3% (04.11.2021–27.01.2022).",
+  "source": "https://wikitech.wikimedia.org/wiki/Data_Platform/Data_Lake/Traffic/Pageview_hourly"
+ },
+ {
+  "id": "war-2022",
+  "start": "2022-02",
+  "end": "2022-12",
+  "projects": [
+   "uk",
+   "ru",
+   "be"
+  ],
+  "note": "Full-scale war: readers moved between Russian and Ukrainian Wikipedia; Ukrainian Wikipedia traffic grew for reasons unrelated to any single topic.",
+  "note_uk": "Повномасштабна війна: читачі переходили з російської Вікіпедії до української, тож трафік укрвікі зростав незалежно від окремих тем.",
+  "source": "https://diff.wikimedia.org/2023/02/24/ukrainian-wikipedia-a-review-of-the-pageviews-of-a-thriving-project/"
+ },
+ {
+  "id": "bot-reclassification-2025",
+  "start": "2025-03",
+  "end": "2025-08",
+  "projects": "*",
+  "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+  "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом.",
+  "source": "https://diff.wikimedia.org/2025/10/17/new-user-trends-on-wikipedia/"
+ }
+]

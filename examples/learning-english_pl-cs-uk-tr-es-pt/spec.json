@@ -1,0 +1,443 @@
+{
+ "topics": [
+  {
+   "name": "Learning English",
+   "kind": "basket",
+   "members": [
+    {
+     "query": "English language",
+     "qid": "Q1860",
+     "label": "English",
+     "description": "West Germanic language",
+     "articles": {
+      "pl": {
+       "lang": "pl",
+       "title": "Język angielski",
+       "exists": true,
+       "length": 56296,
+       "redirects": [
+        "Ang",
+        "Ang.",
+        "Angielski",
+        "Angielszczyzna",
+        "J. ang.",
+        "Język angielski brytyjski"
+       ],
+       "source": "wikidata"
+      },
+      "cs": {
+       "lang": "cs",
+       "title": "Angličtina",
+       "exists": true,
+       "length": 38031,
+       "redirects": [
+        "Anglicky",
+        "Anglický jazyk",
+        "English",
+        "Spelování"
+       ],
+       "source": "wikidata"
+      },
+      "uk": {
+       "lang": "uk",
+       "title": "Англійська мова",
+       "exists": true,
+       "length": 254530,
+       "redirects": [
+        "English",
+        "English language",
+        "Англ.",
+        "Англійська",
+        "Англійською",
+        "Канадська англійська мова",
+        "Канадський варіант англійської мови",
+        "Сучасна англійська"
+       ],
+       "source": "wikidata"
+      },
+      "tr": {
+       "lang": "tr",
+       "title": "İngilizce",
+       "exists": true,
+       "length": 98859,
+       "redirects": [
+        "English Language",
+        "English language",
+        "ISO 639:en",
+        "ISO 639:eng",
+        "Ingilizce",
+        "İng.",
+        "İngilizce Dili"
+       ],
+       "source": "wikidata"
+      },
+      "es": {
+       "lang": "es",
+       "title": "Idioma inglés",
+       "exists": true,
+       "length": 50713,
+       "redirects": [
+        "Acento de boston",
+        "Anglofona",
+        "Anglofono",
+        "Anglohablante",
+        "Angloparlante",
+        "Anglófona",
+        "Anglófono",
+        "El idioma ingles",
+        "English",
+        "English language",
+        "Idioma Inglés",
+        "Idioma ingles",
+        "Ingl.",
+        "Ingles (idioma)",
+        "Ingles moderno",
+        "Inglés (idioma)",
+        "Inglés moderno",
+        "La lengua de Shakespeare",
+        "Lengua Ingles",
+        "Lengua Inglesa",
+        "Lengua Inglés",
+        "Lengua de Shakespeare",
+        "Lengua ingles",
+        "Lengua inglesa",
+        "Lengua inglés"
+       ],
+       "source": "wikidata"
+      },
+      "pt": {
+       "lang": "pt",
+       "title": "Língua inglesa",
+       "exists": true,
+       "length": 50095,
+       "redirects": [
+        "Em inglês",
+        "English language",
+        "Gramática da Língua Inglesa",
+        "Idioma Inglês",
+        "Idioma inglesa",
+        "Idioma inglês",
+        "Idioma ânglico escocês",
+        "Inglês (idioma)",
+        "Inglês (língua)",
+        "Língua Inglesa",
+        "Língua inglês",
+        "Língua scots",
+        "Línguas anglo-frísias insulares",
+        "Línguas inglesas",
+        "Present perfect",
+        "Ânglico"
+       ],
+       "source": "wikidata"
+      }
+     },
+     "alternatives": [
+      {
+       "qid": "Q328",
+       "label": "English Wikipedia",
+       "description": "English-language edition of Wikipedia",
+       "coverage": "6/6"
+      },
+      {
+       "qid": "Q27968",
+       "label": "English studies",
+       "description": "discipline that studies the English language and literature",
+       "coverage": "4/6"
+      },
+      {
+       "qid": "Q186579",
+       "label": "English-language literature",
+       "description": "literary works written in the English language",
+       "coverage": "6/6"
+      },
+      {
+       "qid": "Q16308156",
+       "label": "scholar of English",
+       "description": "person who studies English language and literature",
+       "coverage": "0/6"
+      }
+     ],
+     "ambiguous": false,
+     "gap_hints": {},
+     "label_uk": "англійська мова"
+    },
+    {
+     "query": "English grammar",
+     "qid": "Q560583",
+     "label": "English grammar",
+     "description": "body of rules that describe the structure of expressions in the English language",
+     "articles": {
+      "pl": {
+       "lang": "pl",
+       "title": "Gramatyka języka angielskiego",
+       "exists": true,
+       "length": 147982,
+       "redirects": [],
+       "source": "wikidata"
+      },
+      "cs": {
+       "lang": "cs",
+       "title": "Anglická gramatika",
+       "exists": true,
+       "length": 14908,
+       "redirects": [],
+       "source": "wikidata"
+      },
+      "uk": {
+       "lang": "uk",
+       "title": "Граматика англійської мови",
+       "exists": true,
+       "length": 154575,
+       "redirects": [],
+       "source": "wikidata"
+      },
+      "tr": null,
+      "es": {
+       "lang": "es",
+       "title": "Gramática del inglés",
+       "exists": true,
+       "length": 71529,
+       "redirects": [],
+       "source": "wikidata"
+      },
+      "pt": {
+       "lang": "pt",
+       "title": "Gramática da língua inglesa",
+       "exists": true,
+       "length": 1643,
+       "redirects": [],
+       "source": "wikidata"
+      }
+     },
+     "alternatives": [
+      {
+       "qid": "Q139929339",
+       "label": "English Grammar",
+       "description": "",
+       "coverage": "0/6"
+      },
+      {
+       "qid": "Q87475758",
+       "label": "English Grammar",
+       "description": "book on English grammar by Muhibbek Rustamov and Margarita Asiryans",
+       "coverage": "0/6"
+      },
+      {
+       "qid": "Q122004577",
+       "label": "English grammar",
+       "description": "book edition published in 2017",
+       "coverage": "0/6"
+      },
+      {
+       "qid": "Q5378273",
+       "label": "English Grammar in Use",
+       "description": "book on English grammar by Raymond Murphy",
+       "coverage": "0/6"
+      }
+     ],
+     "ambiguous": false,
+     "gap_hints": {
+      "tr": [
+       "Future simple",
+       "Alexander Bain (filozof)",
+       "Çizgi"
+      ]
+     },
+     "label_uk": "граматика англійської мови"
+    },
+    {
+     "query": "IELTS",
+     "qid": "Q490396",
+     "label": "IELTS",
+     "description": "Test for learners of English as a second language",
+     "articles": {
+      "pl": {
+       "lang": "pl",
+       "title": "IELTS",
+       "exists": true,
+       "length": 3799,
+       "redirects": [],
+       "source": "wikidata"
+      },
+      "cs": {
+       "lang": "cs",
+       "title": "IELTS",
+       "exists": true,
+       "length": 6999,
+       "redirects": [],
+       "source": "wikidata"
+      },
+      "uk": {
+       "lang": "uk",
+       "title": "IELTS",
+       "exists": true,
+       "length": 18197,
+       "redirects": [],
+       "source": "wikidata"
+      },
+      "tr": {
+       "lang": "tr",
+       "title": "IELTS",
+       "exists": true,
+       "length": 8752,
+       "redirects": [],
+       "source": "wikidata"
+      },
+      "es": {
+       "lang": "es",
+       "title": "IELTS",
+       "exists": true,
+       "length": 26962,
+       "redirects": [
+        "International English Language Testing System"
+       ],
+       "source": "wikidata"
+      },
+      "pt": {
+       "lang": "pt",
+       "title": "Sistema de avaliação na língua inglesa internacional",
+       "exists": true,
+       "length": 2820,
+       "redirects": [
+        "IELTS",
+        "International English Language Testing System"
+       ],
+       "source": "wikidata"
+      }
+     },
+     "alternatives": [
+      {
+       "qid": "Q106370817",
+       "label": "IELTS 14: General Training with Answers",
+       "description": "IELTS preparation book",
+       "coverage": "0/6"
+      },
+      {
+       "qid": "Q106638533",
+       "label": "IELTS 15: General Training with Answers",
+       "description": "IELTS preparation book",
+       "coverage": "0/6"
+      },
+      {
+       "qid": "Q106638544",
+       "label": "IELTS 15: Academic with Answers",
+       "description": "IELTS preparation book",
+       "coverage": "0/6"
+      },
+      {
+       "qid": "Q106624755",
+       "label": "IELTS 14: Academic with Answers",
+       "description": "IELTS preparation book",
+       "coverage": "0/6"
+      }
+     ],
+     "ambiguous": false,
+     "gap_hints": {},
+     "label_uk": "IELTS"
+    },
+    {
+     "query": "TOEFL",
+     "qid": "Q487425",
+     "label": "TOEFL",
+     "description": "examination to certify skill in English for non-native speakers",
+     "articles": {
+      "pl": {
+       "lang": "pl",
+       "title": "TOEFL",
+       "exists": true,
+       "length": 14197,
+       "redirects": [],
+       "source": "wikidata"
+      },
+      "cs": null,
+      "uk": {
+       "lang": "uk",
+       "title": "TOEFL",
+       "exists": true,
+       "length": 36823,
+       "redirects": [],
+       "source": "wikidata"
+      },
+      "tr": {
+       "lang": "tr",
+       "title": "TOEFL",
+       "exists": true,
+       "length": 3576,
+       "redirects": [],
+       "source": "wikidata"
+      },
+      "es": {
+       "lang": "es",
+       "title": "TOEFL",
+       "exists": true,
+       "length": 11043,
+       "redirects": [
+        "Test of English as a Foreign Language"
+       ],
+       "source": "wikidata"
+      },
+      "pt": {
+       "lang": "pt",
+       "title": "Teste de Inglês como uma Língua Estrangeira",
+       "exists": true,
+       "length": 6376,
+       "redirects": [
+        "TOEFL",
+        "Test of English as a Foreign Language",
+        "Toefl"
+       ],
+       "source": "wikidata"
+      }
+     },
+     "alternatives": [
+      {
+       "qid": "Q56575592",
+       "label": "TOEFL PBT",
+       "description": "TOEFL paper based test",
+       "coverage": "0/6"
+      },
+      {
+       "qid": "Q56575564",
+       "label": "TOEFL iBT",
+       "description": "",
+       "coverage": "0/6"
+      },
+      {
+       "qid": "Q11249589",
+       "label": "TOEFL Junior",
+       "description": "",
+       "coverage": "0/6"
+      }
+     ],
+     "ambiguous": false,
+     "gap_hints": {
+      "cs": [
+       "Test of English for International Communication",
+       "TrackTest",
+       "Společný evropský referenční rámec"
+      ]
+     },
+     "label_uk": ""
+    }
+   ]
+  }
+ ],
+ "langs": [
+  "pl",
+  "cs",
+  "uk",
+  "tr",
+  "es",
+  "pt"
+ ],
+ "window": {
+  "start": "2024-09",
+  "end": "2026-08",
+  "months": 24
+ },
+ "agent": "user",
+ "access": "all-access",
+ "redirects": true,
+ "preset": "balanced",
+ "weights": null
+}

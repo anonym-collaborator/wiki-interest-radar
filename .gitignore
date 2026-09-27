@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# run outputs of ad-hoc analyses (examples/ is committed on purpose)
+wir-runs/
+# Windows python.exe alias may auto-install a runtime here, see references/troubleshooting.md
+Python/
+# failed headless smoke run (no login), contains local paths
+evals/results/smoke/

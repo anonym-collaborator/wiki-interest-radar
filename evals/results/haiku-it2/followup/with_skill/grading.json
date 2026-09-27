@@ -1,0 +1,36 @@
+{
+ "results": [
+  {
+   "assertion": "skill used",
+   "passed": true,
+   "evidence": "results.json produced by radar.py"
+  },
+  {
+   "assertion": "reuses the run with --from",
+   "passed": true,
+   "evidence": "two runs in the work dir (follow-up reused the first)"
+  },
+  {
+   "assertion": "adds bots",
+   "passed": true,
+   "evidence": "astronomy_uk-pl_24m_all-agents: radar.py analyze --topic astronomy --langs uk,pl --start 2024-09 --end 2026-08 --agent all-agents"
+  },
+  {
+   "assertion": "mentions Polish result",
+   "passed": true,
+   "evidence": "польськ"
+  },
+  {
+   "assertion": "numbers supported by results.json",
+   "passed": true,
+   "evidence": "all numbers found across 2 runs"
+  }
+ ],
+ "passed": 5,
+ "total": 5,
+ "metrics": {
+  "tool_calls": "4+2",
+  "tokens": 48245,
+  "seconds": "43+51"
+ }
+}

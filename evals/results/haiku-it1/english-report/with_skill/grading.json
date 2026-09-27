@@ -1,0 +1,36 @@
+{
+ "results": [
+  {
+   "assertion": "skill used",
+   "passed": true,
+   "evidence": "results.json produced by radar.py"
+  },
+  {
+   "assertion": "one-page PDF",
+   "passed": true,
+   "evidence": "[('C:\\\\Temp\\\\wir-evals\\\\haiku-it1\\\\english-report\\\\with_skill\\\\report_uk.pdf', 1), ('C:\\\\Temp\\\\wir-evals\\\\haiku-it1\\\\english-report\\\\with_skill\\\\wir-runs\\\\learning-english_pl-cs-uk-tr-es-pt_24m\\\\report.pdf', 1)]"
+  },
+  {
+   "assertion": "compares normalized share",
+   "passed": true,
+   "evidence": "per 1M"
+  },
+  {
+   "assertion": "names audiences to research next",
+   "passed": true,
+   "evidence": "ТУРЕЦ"
+  },
+  {
+   "assertion": "numbers supported by results.json",
+   "passed": true,
+   "evidence": "all numbers found in learning-english_pl-cs-uk-tr-es-pt_24m"
+  }
+ ],
+ "passed": 5,
+ "total": 5,
+ "metrics": {
+  "tool_calls": 7,
+  "tokens": 48166,
+  "seconds": 104
+ }
+}

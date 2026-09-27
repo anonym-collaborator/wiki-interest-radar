@@ -1,0 +1,26 @@
+{
+ "results": [
+  {
+   "assertion": "says Polish has no article",
+   "passed": true,
+   "evidence": "НЕ існує"
+  },
+  {
+   "assertion": "Czech is declining",
+   "passed": false,
+   "evidence": "no match"
+  },
+  {
+   "assertion": "states confidence",
+   "passed": true,
+   "evidence": "Середн"
+  }
+ ],
+ "passed": 2,
+ "total": 3,
+ "metrics": {
+  "tool_calls": 32,
+  "tokens": 66736,
+  "seconds": 395
+ }
+}

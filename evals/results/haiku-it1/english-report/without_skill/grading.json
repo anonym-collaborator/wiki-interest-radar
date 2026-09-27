@@ -1,0 +1,26 @@
+{
+ "results": [
+  {
+   "assertion": "one-page PDF",
+   "passed": false,
+   "evidence": "[('C:\\\\Temp\\\\wir-evals\\\\haiku-it1\\\\english-report\\\\without_skill\\\\analiz_anglijskoi_movy.pdf', 3)]"
+  },
+  {
+   "assertion": "compares normalized share",
+   "passed": false,
+   "evidence": "no match"
+  },
+  {
+   "assertion": "names audiences to research next",
+   "passed": false,
+   "evidence": "no match"
+  }
+ ],
+ "passed": 0,
+ "total": 3,
+ "metrics": {
+  "tool_calls": 16,
+  "tokens": null,
+  "seconds": 220
+ }
+}

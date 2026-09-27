@@ -1,0 +1,26 @@
+{
+ "results": [
+  {
+   "assertion": "says not growing / declining",
+   "passed": true,
+   "evidence": "пада"
+  },
+  {
+   "assertion": "explains a trust factor",
+   "passed": true,
+   "evidence": "Сезон"
+  },
+  {
+   "assertion": "states confidence",
+   "passed": true,
+   "evidence": "середн"
+  }
+ ],
+ "passed": 3,
+ "total": 3,
+ "metrics": {
+  "tool_calls": 16,
+  "tokens": 57970,
+  "seconds": 231
+ }
+}

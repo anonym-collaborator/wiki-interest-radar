@@ -1,0 +1,246 @@
+{
+ "tool": "wiki-interest-radar",
+ "version": "0.1.0",
+ "generated_at": "2026-09-27T19:21Z",
+ "command": "radar.py analyze --topic astronomy --langs uk --start 2024-09 --end 2026-08",
+ "spec": {
+  "topics": [
+   {
+    "name": "astronomy",
+    "kind": "topic",
+    "members": [
+     {
+      "query": "astronomy",
+      "qid": "Q333",
+      "label": "astronomy",
+      "description": "natural science studying celestial objects and phenomena in the cosmos",
+      "articles": {
+       "uk": {
+        "lang": "uk",
+        "title": "Астрономія",
+        "exists": true,
+        "length": 152992,
+        "redirects": [
+         "Astronomy"
+        ],
+        "source": "wikidata"
+       }
+      },
+      "alternatives": [
+       {
+        "qid": "Q123958410",
+        "label": "Astronomy",
+        "description": "vocal track by Conan Gray; 2021 studio recording",
+        "coverage": "0/1"
+       },
+       {
+        "qid": "Q411",
+        "label": "astrobiology",
+        "description": "study of the formation of life on Earth and elsewhere on other planets in outer space",
+        "coverage": "1/1"
+       },
+       {
+        "qid": "Q3232273",
+        "label": "Astronomy",
+        "description": "American magazine",
+        "coverage": "0/1"
+       }
+      ],
+      "ambiguous": false,
+      "gap_hints": {},
+      "label_uk": "астрономія"
+     }
+    ]
+   }
+  ],
+  "langs": [
+   "uk"
+  ],
+  "window": {
+   "start": "2024-09",
+   "end": "2026-08",
+   "months": 24
+  },
+  "agent": "user",
+  "access": "all-access",
+  "redirects": true,
+  "preset": "balanced",
+  "weights": null
+ },
+ "rows": [
+  {
+   "topic": "astronomy",
+   "topic_key": "astronomy",
+   "kind": "topic",
+   "lang": "uk",
+   "lang_name": "Ukrainian",
+   "project": "uk.wikipedia.org",
+   "window": {
+    "start": "2024-09",
+    "end": "2026-08",
+    "months": 24
+   },
+   "status": "ok",
+   "articles": [
+    {
+     "label": "astronomy",
+     "qid": "Q333",
+     "title": "Астрономія",
+     "source": "wikidata",
+     "length_bytes": 152992,
+     "redirects": 1,
+     "first_seen": "2015-07",
+     "share_pct": 100.0,
+     "change_12m_pct": -46.4
+    }
+   ],
+   "missing_members": [],
+   "level": {
+    "views_per_month_last12": 559.3,
+    "views_per_million_last12": 9.892,
+    "views_per_million_last3": 6.361,
+    "views_last12_total": 6712,
+    "median_daily_views_last12": 15.0
+   },
+   "change": {
+    "change_12m_pct": -46.4,
+    "change_12m_raw_pct": -59.6,
+    "project_change_12m_pct": -24.6,
+    "yoy_same_months_pct": -9.9,
+    "change_12m_ex_spikes_pct": -46.4
+   },
+   "trend": {
+    "pct_per_year": -45.9,
+    "ci95": [
+     -50.8,
+     -35.9
+    ],
+    "mann_kendall_p": 0.0433,
+    "test": "seasonal Mann-Kendall",
+    "range_pct": [
+     -46.4,
+     -9.9
+    ],
+    "pct_per_year_without_last3": -47.8
+   },
+   "seasonality": {
+    "peak_month": "Sep",
+    "peak_ratio": 3.33,
+    "recurring": true,
+    "largest_month": "2023-09"
+   },
+   "spikes": {
+    "share_pct": 0.0,
+    "days": [],
+    "months": []
+   },
+   "bots": {
+    "share_pct_last12": 44.9
+   },
+   "concentration": {
+    "top_month": "2025-09",
+    "top_month_share_pct": 24.5,
+    "change_12m_without_top_month_pct": -43.1
+   },
+   "redirects": {
+    "share_pct_last12": 0.1,
+    "count": 1
+   },
+   "breaks": [
+    {
+     "id": "bot-reclassification-2025",
+     "start": "2025-03",
+     "end": "2025-08",
+     "specific": false,
+     "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+     "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом.",
+     "source": "https://diff.wikimedia.org/2025/10/17/new-user-trends-on-wikipedia/"
+    }
+   ],
+   "verdict": "declining",
+   "confidence": "high",
+   "checks": [
+    {
+     "id": "volume",
+     "status": "ok",
+     "key": "volume_ok",
+     "params": {
+      "med": "15"
+     },
+     "message": "median 15 views/day in the last 12 months"
+    },
+    {
+     "id": "spikes",
+     "status": "ok",
+     "key": "spikes_none",
+     "params": {},
+     "message": "no spike days detected"
+    },
+    {
+     "id": "agreement",
+     "status": "ok",
+     "key": "agreement_ok",
+     "params": {
+      "a": "-46",
+      "b": "-10"
+     },
+     "message": "12-month change, same-month YoY and trend agree in direction (range -46..-10%)"
+    },
+    {
+     "id": "momentum",
+     "status": "info",
+     "key": "momentum_slowing",
+     "params": {
+      "y6": "-10",
+      "c12": "-46"
+     },
+     "message": "the change is slowing: last 6 months vs a year earlier -10% against -46% over 12 months"
+    },
+    {
+     "id": "normalization",
+     "status": "info",
+     "key": "norm_info",
+     "params": {
+      "project": "uk.wikipedia.org",
+      "pc": "-25"
+     },
+     "message": "the whole uk.wikipedia.org changed -25% over the same 12 months; figures are per 1M edition views to remove that"
+    },
+    {
+     "id": "bots",
+     "status": "info",
+     "key": "bots_info",
+     "params": {
+      "share": "45"
+     },
+     "message": "45% of all views are bots/automated (excluded)"
+    },
+    {
+     "id": "seasonality",
+     "status": "info",
+     "key": "season_info",
+     "params": {
+      "peak_en": "September",
+      "peak_uk": "вересні",
+      "ratio": "3.33"
+     },
+     "message": "seasonal: peak in September (x3.33 of an average month); compare 12-month totals or the same months, never adjacent seasons"
+    },
+    {
+     "id": "data_break",
+     "status": "info",
+     "key": "break",
+     "params": {
+      "start": "2025-03",
+      "end": "2025-08",
+      "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+      "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом."
+     },
+     "message": "2025-03..2025-08: Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time."
+    }
+   ],
+   "reasons": []
+  }
+ ],
+ "ranking": null
+}

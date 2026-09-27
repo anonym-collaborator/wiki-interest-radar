@@ -1,0 +1,246 @@
+{
+ "tool": "wiki-interest-radar",
+ "version": "0.1.0",
+ "generated_at": "2026-09-27T19:21Z",
+ "command": "radar.py analyze --topic 'intermittent fasting' --langs pl,cs --start 2024-09 --end 2026-08",
+ "spec": {
+  "topics": [
+   {
+    "name": "intermittent fasting",
+    "kind": "topic",
+    "members": [
+     {
+      "query": "intermittent fasting",
+      "qid": "Q1666254",
+      "label": "intermittent fasting",
+      "description": "a diet that cycles between a period of fasting and non-fasting",
+      "articles": {
+       "pl": null,
+       "cs": {
+        "lang": "cs",
+        "title": "Přerušovaný půst",
+        "exists": true,
+        "length": 7148,
+        "redirects": [],
+        "source": "wikidata"
+       }
+      },
+      "alternatives": [],
+      "ambiguous": false,
+      "gap_hints": {
+       "pl": [
+        "Stres oksydacyjny",
+        "Głodówka lecznicza",
+        "Paleolityczny styl życia"
+       ]
+      },
+      "label_uk": "Інтервальне голодування"
+     }
+    ]
+   }
+  ],
+  "langs": [
+   "pl",
+   "cs"
+  ],
+  "window": {
+   "start": "2024-09",
+   "end": "2026-08",
+   "months": 24
+  },
+  "agent": "user",
+  "access": "all-access",
+  "redirects": true,
+  "preset": "balanced",
+  "weights": null
+ },
+ "rows": [
+  {
+   "topic": "intermittent fasting",
+   "topic_key": "intermittent-fasting",
+   "kind": "topic",
+   "lang": "pl",
+   "lang_name": "Polish",
+   "project": "pl.wikipedia.org",
+   "window": {
+    "start": "2024-09",
+    "end": "2026-08",
+    "months": 24
+   },
+   "status": "no_article",
+   "verdict": "no_article",
+   "confidence": null,
+   "missing_members": [
+    "intermittent fasting"
+   ],
+   "mentioned_in": [
+    "Głodówka lecznicza",
+    "Paleolityczny styl życia",
+    "Stres oksydacyjny"
+   ],
+   "reasons": [
+    "No article on this topic exists in this edition (content gap, not zero interest). Nothing to measure."
+   ]
+  },
+  {
+   "topic": "intermittent fasting",
+   "topic_key": "intermittent-fasting",
+   "kind": "topic",
+   "lang": "cs",
+   "lang_name": "Czech",
+   "project": "cs.wikipedia.org",
+   "window": {
+    "start": "2024-09",
+    "end": "2026-08",
+    "months": 24
+   },
+   "status": "ok",
+   "articles": [
+    {
+     "label": "intermittent fasting",
+     "qid": "Q1666254",
+     "title": "Přerušovaný půst",
+     "source": "wikidata",
+     "length_bytes": 7148,
+     "redirects": 0,
+     "first_seen": "2020-10",
+     "share_pct": 100.0,
+     "change_12m_pct": -47.0
+    }
+   ],
+   "missing_members": [],
+   "level": {
+    "views_per_month_last12": 183.2,
+    "views_per_million_last12": 3.081,
+    "views_per_million_last3": 2.053,
+    "views_last12_total": 2198,
+    "median_daily_views_last12": 5.0
+   },
+   "change": {
+    "change_12m_pct": -47.0,
+    "change_12m_raw_pct": -53.6,
+    "project_change_12m_pct": -12.6,
+    "yoy_same_months_pct": -44.8,
+    "change_12m_ex_spikes_pct": -37.0
+   },
+   "trend": {
+    "pct_per_year": -39.8,
+    "ci95": [
+     -47.7,
+     -28.7
+    ],
+    "mann_kendall_p": 0.0094,
+    "test": "seasonal Mann-Kendall",
+    "range_pct": [
+     -47.0,
+     -39.8
+    ],
+    "pct_per_year_without_last3": -39.0
+   },
+   "seasonality": {
+    "peak_month": "Apr",
+    "peak_ratio": 1.49,
+    "recurring": false,
+    "largest_month": "2025-04"
+   },
+   "spikes": {
+    "share_pct": 10.8,
+    "days": [
+     {
+      "date": "2024-10-17",
+      "views": 110,
+      "baseline": 12
+     },
+     {
+      "date": "2025-04-14",
+      "views": 508,
+      "baseline": 12
+     },
+     {
+      "date": "2025-08-15",
+      "views": 164,
+      "baseline": 6
+     }
+    ],
+    "months": [
+     "2024-10",
+     "2025-04",
+     "2025-08"
+    ]
+   },
+   "bots": {
+    "share_pct_last12": 29.7
+   },
+   "concentration": {
+    "top_month": "2026-01",
+    "top_month_share_pct": 21.6,
+    "change_12m_without_top_month_pct": -54.0
+   },
+   "redirects": {
+    "share_pct_last12": 0.0,
+    "count": 0
+   },
+   "breaks": [
+    {
+     "id": "bot-reclassification-2025",
+     "start": "2025-03",
+     "end": "2025-08",
+     "specific": false,
+     "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+     "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом.",
+     "source": "https://diff.wikimedia.org/2025/10/17/new-user-trends-on-wikipedia/"
+    }
+   ],
+   "verdict": "declining",
+   "confidence": "medium",
+   "checks": [
+    {
+     "id": "volume",
+     "status": "warn",
+     "key": "volume_warn",
+     "params": {
+      "med": "5"
+     },
+     "message": "low volume: median 5 views/day in the last 12 months"
+    },
+    {
+     "id": "spikes",
+     "status": "warn",
+     "key": "spikes_warn",
+     "params": {
+      "share": "11",
+      "top": "2024-10-17: 110 vs ~12, 2025-04-14: 508 vs ~12"
+     },
+     "message": "11% of window views fall on spike days (2024-10-17: 110 vs ~12, 2025-04-14: 508 vs ~12); the trend is computed without them"
+    },
+    {
+     "id": "agreement",
+     "status": "ok",
+     "key": "agreement_ok",
+     "params": {
+      "a": "-47",
+      "b": "-40"
+     },
+     "message": "12-month change, same-month YoY and trend agree in direction (range -47..-40%)"
+    },
+    {
+     "id": "data_break",
+     "status": "info",
+     "key": "break",
+     "params": {
+      "start": "2025-03",
+      "end": "2025-08",
+      "note": "Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time.",
+      "note_uk": "Wikimedia виявила ботів, що маскувалися під людей (переважно з Бразилії), і перекласифікувала березень–серпень 2025; «людських» переглядів стало ~8% менше, ніж у 2024. Правила детекції ботів змінюються з часом."
+     },
+     "message": "2025-03..2025-08: Wikimedia found evasive bots counted as humans (mostly from Brazil) and reclassified 2025-03..08; human pageviews ended ~8% below 2024. Bot detection rules differ over time."
+    }
+   ],
+   "reasons": [
+    "low volume: median 5 views/day in the last 12 months",
+    "11% of window views fall on spike days (2024-10-17: 110 vs ~12, 2025-04-14: 508 vs ~12); the trend is computed without them"
+   ]
+  }
+ ],
+ "ranking": null
+}

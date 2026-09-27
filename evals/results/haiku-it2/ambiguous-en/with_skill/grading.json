@@ -1,0 +1,21 @@
+{
+ "results": [
+  {
+   "assertion": "skill used",
+   "passed": true,
+   "evidence": "results.json produced by radar.py"
+  },
+  {
+   "assertion": "addresses the ambiguity",
+   "passed": true,
+   "evidence": "planet"
+  }
+ ],
+ "passed": 2,
+ "total": 2,
+ "metrics": {
+  "tool_calls": 3,
+  "tokens": 42636,
+  "seconds": 31
+ }
+}

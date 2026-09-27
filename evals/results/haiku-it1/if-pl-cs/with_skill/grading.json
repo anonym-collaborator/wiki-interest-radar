@@ -1,0 +1,36 @@
+{
+ "results": [
+  {
+   "assertion": "skill used",
+   "passed": true,
+   "evidence": "results.json produced by radar.py"
+  },
+  {
+   "assertion": "says Polish has no article",
+   "passed": true,
+   "evidence": "немає"
+  },
+  {
+   "assertion": "Czech is declining",
+   "passed": true,
+   "evidence": "пада"
+  },
+  {
+   "assertion": "states confidence",
+   "passed": true,
+   "evidence": "Середн"
+  },
+  {
+   "assertion": "numbers supported by results.json",
+   "passed": true,
+   "evidence": "all numbers found in intermittent-fasting_pl-cs_24m"
+  }
+ ],
+ "passed": 5,
+ "total": 5,
+ "metrics": {
+  "tool_calls": 6,
+  "tokens": 44530,
+  "seconds": 54
+ }
+}
